@@ -2,7 +2,6 @@ package com.backend.clase.service;
 
 import com.backend.clase.model.Empleado;
 import com.backend.clase.model.EmpleadoContratado;
-import com.backend.clase.service.LiquidadorSueldo;
 
 public class LiquidarContratado extends LiquidadorSueldo {
 
@@ -11,8 +10,10 @@ public class LiquidarContratado extends LiquidadorSueldo {
     protected double calcularSueldo(Empleado empleado) {
         double sueldo = 0;
 
-        if(empleado instanceof EmpleadoContratado empleadoContratado){
+        if (empleado instanceof EmpleadoContratado empleadoContratado) {
             sueldo = empleadoContratado.getCantHoras() * empleadoContratado.getValorHora();
+        } else {
+            System.out.println("No es un Empleado valido.");
         }
 
         return sueldo;

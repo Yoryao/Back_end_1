@@ -8,8 +8,10 @@ public class LiquidarEfectivo extends LiquidadorSueldo {
     protected double calcularSueldo(Empleado empleado) {
         double sueldo = 0;
 
-        if(empleado instanceof EmpleadoEfectivo empleadoEfectivo){
-            sueldo = empleadoEfectivo.getSueldoBasico() * empleadoEfectivo.getPremios() - empleadoEfectivo.getDescuentos() ;
+        if (empleado instanceof EmpleadoEfectivo empleadoEfectivo) {
+            sueldo = empleadoEfectivo.getSueldoBasico() + empleadoEfectivo.getPremios() - empleadoEfectivo.getDescuentos();
+        } else {
+            System.out.println("No es un Empleado valido.");
         }
 
         return sueldo;
@@ -17,6 +19,6 @@ public class LiquidarEfectivo extends LiquidadorSueldo {
 
     @Override
     protected String generarRecibo(Empleado empleado) {
-        return "Recibo generado en formato digital.";
+        return "Recibo.";
     }
 }
