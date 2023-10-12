@@ -1,19 +1,30 @@
 package org.example;
-
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        AnalistaDeCalidad lote = new ControlLote();
+        AnalistaDeCalidad peso = new ControlPeso();
+        AnalistaDeCalidad enva = new ControlEnvasado();
 
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        peso.setSigControl(enva);
+        lote.setSigControl(peso);
+
+        Articulo art1 = new Articulo("Vaso", 900, 1250, "Sano");
+        Articulo art2 = new Articulo("Copa", 1100, 150, "Sano");
+        Articulo art3 = new Articulo("Plato", 1100, 1201, "Roto");
+        Articulo art4 = new Articulo("Taza", 1150, 1250, "Sano");
+
+        System.out.println("Control de la .... Vaso");
+        lote.compruebaCalidad(art1);
+        System.out.println("Control de la .... Copa");
+        lote.compruebaCalidad(art2);
+        System.out.println("Control de la ....Plato");
+        lote.compruebaCalidad(art3);
+        System.out.println("Control de la ....Taza");
+        lote.compruebaCalidad(art4);
+
+
+
+
     }
 }
