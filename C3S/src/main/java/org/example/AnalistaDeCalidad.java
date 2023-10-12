@@ -6,7 +6,7 @@ public abstract class AnalistaDeCalidad {
     public AnalistaDeCalidad() {
     }
 
-    public abstract void compruebaCalidad(Articulo articulo);
+    public abstract String compruebaCalidad(Articulo articulo);
 
     public AnalistaDeCalidad getSigControl() {
         return sigControl;

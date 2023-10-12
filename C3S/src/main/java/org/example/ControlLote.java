@@ -1,18 +1,16 @@
 package org.example;
 
 public class ControlLote extends AnalistaDeCalidad{
+
+    String respuesta = "";
     @Override
-    public void compruebaCalidad(Articulo articulo) {
+    public String compruebaCalidad(Articulo articulo) {
         if(articulo.lote > 1000 && articulo.lote < 2000) {
             System.out.println("Lote Ok. Pasa a siguiente Control.");
-            if(getSigControl() != null){
-                getSigControl().compruebaCalidad(articulo);
-            } else {
-                System.out.println("Aprobo todos los controles. ");
-            }
+            return getSigControl().compruebaCalidad(articulo);
 
         } else {
-            System.out.println("No paso el control de Lote, se descarta.");
+            return "No paso el control se descarta.";
         }
 
     }
