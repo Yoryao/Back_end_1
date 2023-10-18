@@ -15,11 +15,11 @@ public class Main {
         Documento toMin = new Documento("Mensaje al mini", 1);
 
 
-        System.out.println("Mensaje al Presidente");
+        System.out.println("To Presidente");
         mini.ProcesarMensaje(toPre);
-        System.out.println("Mensaje al Dipu");
+        System.out.println("To Dipu");
         mini.ProcesarMensaje(toDip);
-        System.out.println("Mensaje al Ministro");
+        System.out.println("To Ministro");
         mini.ProcesarMensaje(toMin);
 
 
