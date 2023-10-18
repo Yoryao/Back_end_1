@@ -10,15 +10,18 @@
     <packaging>pom</packaging>
     <modules>
         <module>C1A_Junit</module>
-        <module>C2A_PatronTemplate_Tarjeta</module>
         <module>C3A_PatronObserver_Empleados</module>
         <module>C4A_PatronProxy_GoogleDrive</module>
         <module>C1S_Geometria</module>
         <module>C2S_PatronTemplate_Menues</module>
-        <module>C3S</module>
-        <module>C4S</module>
+        <module>C3S_Patron_Observer_Controles</module>
+        <module>C4S_Spotify</module>
         <module>C2A_TemplateMethod_Tarjetas</module>
         <module>C4A_PatronProxy_Internet</module>
+        <module>C5A_Recetas</module>
+        <module>C5A_Arboles</module>
+        <module>C6A_Facade_Cajero</module>
+        <module>C6S_Facade_Ecommerce</module>
     </modules>
 
     <properties>

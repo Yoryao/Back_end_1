@@ -15,14 +15,24 @@
     <file url="file://$PROJECT_DIR$/C2S_PatronTemplate_Menues/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/C3A_PatronObserver_Empleados/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/C3A_PatronObserver_Empleados/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/C3S/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/C3S/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C3S_Patron_Observer_Controles/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C3S_Patron_Observer_Controles/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/C4A_PatronProxy_GoogleDrive/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/C4A_PatronProxy_GoogleDrive/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/C4A_PatronProxy_Internet/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/C4A_PatronProxy_Internet/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/C4S/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/C4S/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C4S_Spotify/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C4S_Spotify/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C5A_Arboles/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C5A_Arboles/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C5A_Recetas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C5A_Recetas/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C6A_Facade_Cajero/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C6A_Facade_Cajero/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C6A_Facade_Turismo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C6A_Facade_Turismo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C6S_Facade_Ecommerce/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C6S_Facade_Ecommerce/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
